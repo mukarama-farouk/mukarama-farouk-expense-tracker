@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <header>
+      <h1>My Expense Tracker</h1>
+    </header>
+    <main>
+        <form id="form-container">
+            <div id="form-group">
+                <label>Description</label>
+                <input type="text" name="description" class="form-control">
+                
+            </div>
+            <div id="form-group">
+                <label>Amount</label>
+                <input type="number" name="amount" class="form-control">
+            </div>
+            <button type="submit">Save Transaction</button>
+
+            </form>
+
+        <section id="transactions">
+           <ul id="items">
+            <li class="income">
+                <span>Salary</span>
+                <span>2400</span>
+            </li>
+
+           </ul>
+        </section>
+    </main>
+
+
+
+
+
+    <script src="/app.js"></script>
+</body>
+</html>
